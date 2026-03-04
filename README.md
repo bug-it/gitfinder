@@ -3,11 +3,9 @@
 > 🔎 Advanced GitHub Repository Search Engine  
 > ⚡ Ultra-fast • Modern UI • Production Ready • Auto-Installer
 
----
-
 ## 🌌 Sobre o Projeto
 
-**GitFinder PRO** é um buscador avançado de repositórios do GitHub com:
+**GitFinder** é um buscador avançado de repositórios do GitHub com:
 
 - 🔥 Interface futurista estilo cyberpunk
 - ⚡ Busca otimizada por estrelas
@@ -17,8 +15,6 @@
 - 📊 Paginação inteligente
 - 🛠️ Instalação automática de dependências
 - 🚀 Servidor de produção com Waitress
-
----
 
 ## 🖼️ Interface
 
@@ -30,8 +26,6 @@ Design moderno com:
 - Cards animados
 - Paginação dinâmica
 
----
-
 ## 🛠️ Tecnologias Utilizadas
 
 - Python 3
@@ -40,8 +34,6 @@ Design moderno com:
 - Waitress
 - HTML5 + CSS3 + JavaScript
 - GitHub REST API
-
----
 
 ## ⚙️ Instalação
 
