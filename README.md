@@ -7,14 +7,14 @@
 
 **GitFinder** é um buscador avançado de repositórios do GitHub com:
 
-- 🔥 Interface futurista estilo cyberpunk
+- 🔥 Interface futurista
 - ⚡ Busca otimizada por estrelas
 - 🎯 Filtro por linguagem
 - 📦 Download direto em ZIP
 - 🔗 Clone Git rápido
 - 📊 Paginação inteligente
 - 🛠️ Instalação automática de dependências
-- 🚀 Servidor de produção com Waitress
+- 🚀 Servidor com Waitress
 
 ## 🖼️ Interface
 
