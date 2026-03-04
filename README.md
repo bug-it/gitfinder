@@ -1,4 +1,4 @@
-# 🚀 GitFinder PRO
+# 🚀 Git Finder
 
 > 🔎 Advanced GitHub Repository Search Engine  
 > ⚡ Ultra-fast • Modern UI • Production Ready • Auto-Installer
