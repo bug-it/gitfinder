@@ -1,7 +1,3 @@
-# ==========================
-# AUTO-INSTALL SEGURO (ANTES DE QUALQUER IMPORT EXTERNO)
-# ==========================
-
 import sys
 import subprocess
 import importlib.util
@@ -30,10 +26,6 @@ def install_missing_packages():
 
 install_missing_packages()
 
-# ==========================
-# AGORA SIM PODE IMPORTAR
-# ==========================
-
 from flask import Flask, request, jsonify, render_template_string
 import requests
 import os
@@ -45,10 +37,6 @@ import math
 import warnings
 import logging
 from waitress import serve
-
-# ==========================
-# COLORAMA SAFE IMPORT
-# ==========================
 
 try:
     from colorama import Fore, init
@@ -62,10 +50,6 @@ except:
 
 init(autoreset=True)
 
-# ==========================
-# SILENCIAR WARNINGS E LOGS
-# ==========================
-
 warnings.filterwarnings("ignore")
 logging.getLogger("werkzeug").setLevel(logging.ERROR)
 
@@ -75,11 +59,6 @@ GITHUB_API = "https://api.github.com/search/repositories"
 GITHUB_TOKEN = "COLE_SEU_TOKEN_AQUI"
 
 app = Flask(__name__)
-
-# ==========================
-# HTML (MANTIDO 100% IGUAL)
-# ==========================
-
 
 HTML = """
 <!DOCTYPE html>
@@ -420,10 +399,6 @@ function goToPage(page){
 </html>
 """
 
-# ==========================
-# ROTAS (INALTERADAS)
-# ==========================
-
 @app.route("/")
 def index():
     return render_template_string(HTML)
@@ -488,10 +463,6 @@ def search():
         })
 
     return jsonify({"results": results, "total_pages": total_pages})
-
-# ==========================
-# AUTO OPEN BROWSER
-# ==========================
 
 def open_browser():
     time.sleep(1)
